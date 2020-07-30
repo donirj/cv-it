@@ -1,0 +1,74 @@
+
+  .container {
+    padding: 10px 20px;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .col-1 {
+    width: 8.3%;
+  }
+
+  .col-2 {
+    width: calc(8.3% * 2);
+  }
+
+  .col-11 {
+    width: calc(8.3% * 11);
+  }
+
+  .col-12 {
+    width: calc(8.3% * 12);
+  }
+
+  /*
+*   Common
+*/
+
+  body {
+    margin: 0;
+  }
+
+
+
+  .f-right {
+    float: right;
+  }
+
+
+  /*
+*   Navbar
+*/
+
+
+  .menu ul {
+    width: 100vw;
+    right: 0;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+    flex-direction: column;
+    float: right;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+  }
+
+  .menu li {
+    color: #FFFFFF;
+    display: flex;
+    padding: 15px 20px;
+    font-size: 16px;
+    line-height: 28px;
+    background: #0000EC;
+    list-style-type: none;
+  }
